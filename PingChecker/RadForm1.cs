@@ -53,6 +53,8 @@ namespace PingChecker
 
             radLabel1.UseCompatibleTextRendering = true;
             radLabel1.Font = new Font(private_fonts.Families[0], 20);
+            radLabel2.UseCompatibleTextRendering = true;
+            radLabel2.Font = new Font(private_fonts.Families[0], 20);
         }
 
         private async void radButton1_Click(object sender, EventArgs e)
